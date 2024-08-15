@@ -5,3 +5,7 @@ VALUES (CURRENT_TIMESTAMP);
 -- COMMAND ----------
 
 select * from raw.default.my_test
+
+-- COMMAND ----------
+
+delete from raw.default.my_test
